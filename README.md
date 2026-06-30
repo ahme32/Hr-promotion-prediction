@@ -27,14 +27,14 @@ The dataset is imbalanced (only ~8.5% of employees were promoted), so the models
 2. **Data Cleaning** — handle missing values, drop duplicates, fix column names.
 3. **EDA** — univariate and bivariate analysis, 6 kinds of plots, plus a t-test.
 4. **Feature Engineering** — new features `total_score` and `high_training_score`.
-5. **Feature Selection** — Filter (ANOVA), Wrapper (RFE), Embedded (Random Forest).
+5. **Feature Selection** — Embedded method (Random Forest feature importance).
 6. **Modeling** — Logistic Regression, KNN, Decision Tree, Random Forest, compared and tuned with GridSearchCV, validated with cross-validation.
 7. **Deployment** — a Streamlit web app (`app.py`).
 
 ## Results
 The best model is a **tuned Random Forest** (`max_depth=20`, `n_estimators=200`):
-- Precision ≈ **0.66**, Recall ≈ **0.38** on the test set (both above the required 0.3).
-- Cross-validation average F1 ≈ **0.46**.
+- Precision ≈ **0.41**, Recall ≈ **0.47** on the test set (both above the required 0.3).
+- Cross-validation average F1 ≈ **0.42**.
 
 ## Files
 | File | Description |
