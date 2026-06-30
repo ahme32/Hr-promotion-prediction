@@ -3,7 +3,8 @@
 A Data Science project that predicts whether an employee will be promoted, using their
 performance and profile data. Built as a final project for **Epsilon AI**.
 
-> Main Epsilon AI repository: https://github.com/EpsilonAI  *(replace with the exact repo link given by your instructor)*
+> Completed as a final project for the **Epsilon AI** Data Science program.
+> Epsilon AI Academy: https://eg.epsilonaiglobal.com/academy
 
 ---
 
