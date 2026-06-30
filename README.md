@@ -1,5 +1,7 @@
 # HR Analytics — Employee Promotion Prediction
 
+**Live Demo:** https://hr-promotion-prediction-zedhrptm5zpkhppp5xmv3a.streamlit.app/
+
 A Data Science project that predicts whether an employee will be promoted, using their
 performance and profile data. Built as a final project for **Epsilon AI**.
 
